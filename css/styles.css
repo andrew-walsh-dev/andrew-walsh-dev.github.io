@@ -1,21 +1,58 @@
+/*Color Palette*/
+:root{
+    --dark-blue: #1a2238;
+    --off-white: rgba(255, 255, 255, 0.692);
+    --orange: #ff6a3d;
+    --gray: #5e5f7a;
+}
+
 body{
     font-family:Ubuntu, sans-serif;
-    background-color: #e5e5e5;
+    background-color:var(--off-white);
 }
 .navbar-dark{
-    background-color:#1a2238 !important;
+    background-color:var(--dark-blue) !important;
 }
 nav, .nav-link{
     color:rgba(255, 255, 255, 0.692) !important;
 }
 .navbar-brand:hover, .nav-link:hover, .navbar-toggler-icon:hover{
-    color:#ff6a3d !important;
+    color:var(--orange) !important;
 }
 a, a:hover, a:visited, a:active{
     color:inherit;
     text-decoration:inherit;
 }
 em{
-    color:#ff6a3d;
+    color:var(--orange);
     font-weight: bolder;
+}
+em:hover{
+    text-decoration: underline;
+}
+h1 em:hover{
+    font-size: 70px;
+}
+h2 em:hover{
+    font-size: 40px;
+}
+h1{
+    font-size: 60px;
+}
+h4{
+    color:var(--gray);
+}
+.media-link{
+    color: var(--gray);
+    font-size: 30px;
+}
+.contact-icon{
+    color:var(--gray);
+    font-size:25px;
+    text-decoration: bold;
+}
+.contact-icon-text{
+    color:var(--gray);
+    font-size: 20px;
+    text-decoration: bold;
 }

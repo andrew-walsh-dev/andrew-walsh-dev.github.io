@@ -5,7 +5,9 @@
     --orange: #ff6a3d;
     --gray: #5e5f7a;
 }
-
+html{
+    height: 300vh;
+}
 body{
     font-family:Ubuntu, sans-serif;
     background-color:var(--off-white);
@@ -20,7 +22,7 @@ nav, .nav-link{
     color:var(--orange) !important;
 }
 a, a:hover, a:visited, a:active{
-    color:inherit;
+    color:unset;
     text-decoration:inherit;
 }
 em{
@@ -44,7 +46,10 @@ h4{
 }
 .media-link{
     color: var(--gray);
-    font-size: 30px;
+    font-size: 75px;
+}
+.media-link:hover{
+    color: var(--orange);
 }
 .contact-icon{
     color:var(--gray);
@@ -55,4 +60,13 @@ h4{
     color:var(--gray);
     font-size: 20px;
     text-decoration: bold;
+}
+#about{
+    height: calc(100vh - 56px);
+}
+i:hover, p:hover{
+    color: inherit;
+}
+a:hover{
+    color: var(--orange);
 }

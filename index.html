@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Andrew Walsh</title>
-        <!--Bootstrap CSS-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <!--NAVBAR-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-            <a class="navbar-brand ml-2" href="#"><i class="fas fa-laptop-code pr-2"></i>Andrew Walsh</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andrew Walsh</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand ml-2" href="#about"><i class="fas fa-laptop-code pr-2"></i>Andrew Walsh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link px-3" href="#">About</a>
+                    <a class="nav-link px-3" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3" href="#">Portfolio</a>
+                    <a class="nav-link px-3" href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link px-3" href="#">Contact</a>
-                </li>      
-              </ul>
-            </div>
-          </nav>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-          <!--ABOUT SECTION-->
-          <section class="d-flex flex-column justify-content-center">
-                <h2 class="text-center mt-5">A developer with a passion for designing <em>efficient</em>, <em>maintainable</em> applications.</h2>
-          </section>
-          <!--FontAwesome CDN-->
-          <script src="https://kit.fontawesome.com/26d2d1eb84.js" crossorigin="anonymous"></script>
-          <!--jQuery CDN-->
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-          <!--Bootstrap JS-->
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </body>
+    <!--ABOUT SECTION-->
+    <section id="about" class="d-flex flex-column align-items-center">
+        <h1 class="text-center mt-5">Hi, I'm <em>Andrew!</em></h1>
+        <h2 class="text-center mt-2">A developer with a passion for designing <em>efficient</em>, <em>maintainable</em>
+            applications. </h2>
+        <div id="contact-info" class="d-flex justify-content-center align-items-center">
+            <a href="#" class="d-flex justify-content-center align-items-center">
+                <i class="fas fa-phone-square contact-icon"></i>
+                <p class="contact-icon-text m-0 pl-1">(814) 418 5942</p>
+            </a>
+            <h4 class="m-0 mx-3">•</h6>
+            <a href="mailto:andrew.jordan.walsh@gmail.com" target="_blank" class="d-flex justify-content-center align-items-center">
+                 <i class="far fa-envelope contact-icon"></i>
+                 <p class="contact-icon-text m-0 pl-1">andrew.jordan.walsh@gmail.com</p>
+            </a>
+        </div>
+        <div id="media-link-container" class="d-flex justify-content-center">
+                <a href="https://github.com/andrew-walsh-dev" target="_blank"><i class="fab fa-github media-link mx-3"></i></a>
+                <a href="https://www.linkedin.com/in/andrew-walsh-dev/" target="_blank"><i class="fab fa-linkedin media-link mx-3"></i></a>
+                <a href="media/andrew_walsh_resume_GOOD.pdf" target="_blank"><i class="far fa-file media-link mx-3"></i></a>
+        </div>   
+    </section>
+    <!--FontAwesome CDN-->
+    <script src="https://kit.fontawesome.com/26d2d1eb84.js" crossorigin="anonymous"></script>
+    <!--jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Bootstrap JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
 </html>

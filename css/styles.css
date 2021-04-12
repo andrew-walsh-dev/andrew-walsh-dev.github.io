@@ -1,0 +1,13 @@
+body{
+    font-family:Ubuntu, sans-serif;
+}
+nav, .nav-link{
+    color:rgba(255, 255, 255, 0.692) !important;
+}
+.navbar-brand:hover, .nav-link:hover, .navbar-toggler-icon:hover{
+    color:#ac6364 !important;
+}
+a, a:hover, a:visited, a:active{
+    color:inherit;
+    text-decoration:inherit;
+}

@@ -25,8 +25,8 @@ nav, .nav-link{
     color: var(--orange);
 }
 .navbar-brand:hover, .nav-link:hover, .navbar-toggler-icon:hover{
-    color:var(--orange) !important;
-    transform: scale(1.05); 
+    /* color:var(--orange) !important; */
+    transform: scale(1.1); 
 }
 a, a:hover, a:visited{
     color:unset;

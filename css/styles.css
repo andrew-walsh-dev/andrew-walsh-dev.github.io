@@ -61,12 +61,24 @@ h4{
     font-size: 20px;
     text-decoration: bold;
 }
-#about{
-    height: calc(100vh - 56px);
+#about,#skills{
+    height: 100vh;
 }
 i:hover, p:hover{
     color: inherit;
 }
 a:hover{
     color: var(--orange);
+}
+.skill-icon{
+    font-size: 50px;
+}
+.skill-text{
+    font-size: 50px;
+}
+#skills-header{
+    margin-top: 66px;
+}
+.skill{
+    flex-basis: 50%;
 }

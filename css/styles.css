@@ -77,8 +77,8 @@ i:hover, p:hover{
     font-size: 50px;
 }
 #skills-header, #projects-header, #education-header{
-    margin-top: 100px;
-    margin-bottom: 30px;
+    /* margin-top: 100px; */
+    margin-bottom: 50px;
 }
 .skill{
     flex-basis: 50%;

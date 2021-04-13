@@ -88,3 +88,10 @@ i:hover, p:hover{
 .card{
     border: 10px solid lightgray;
 }
+.education-name{
+    position: relative;
+    right: 130px;
+}
+.width-500{
+    width: 500px;
+}

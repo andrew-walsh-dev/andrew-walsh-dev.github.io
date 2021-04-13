@@ -67,16 +67,16 @@ h4{
 i:hover, p:hover{
     color: inherit;
 }
-a:hover{
+/* a:hover{
     color: var(--orange);
-}
+} */
 .skill-icon{
     font-size: 50px;
 }
 .skill-text{
     font-size: 50px;
 }
-#skills-header{
+#skills-header, #projects-header{
     margin-top: 100px;
     margin-bottom: 30px;
 }
@@ -84,4 +84,7 @@ a:hover{
     flex-basis: 50%;
     margin-top: 10px;
     padding: .1em;
+}
+.card{
+    border: 10px solid lightgray;
 }

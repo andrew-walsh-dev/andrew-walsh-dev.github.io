@@ -61,7 +61,7 @@ h4{
     font-size: 20px;
     text-decoration: bold;
 }
-#about,#skills{
+#about,#skills,#projects,#education{
     height: 100vh;
 }
 i:hover, p:hover{
@@ -76,7 +76,7 @@ i:hover, p:hover{
 .skill-text{
     font-size: 50px;
 }
-#skills-header, #projects-header{
+#skills-header, #projects-header, #education-header{
     margin-top: 100px;
     margin-bottom: 30px;
 }

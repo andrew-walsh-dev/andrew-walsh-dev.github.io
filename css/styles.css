@@ -6,11 +6,14 @@
     --gray: #5e5f7a;
 }
 html{
-    height: 300vh;
+    /* height: 300vh;  */
+    scroll-behavior:smooth;
 }
 body{
     font-family:Ubuntu, sans-serif;
     background-color:var(--off-white);
+    position: relative;
+    height: 100%;
 }
 .navbar-dark{
     background-color:var(--dark-blue) !important;
@@ -18,12 +21,19 @@ body{
 nav, .nav-link{
     color:rgba(255, 255, 255, 0.692) !important;
 }
-.navbar-brand:hover, .nav-link:hover, .navbar-toggler-icon:hover{
-    color:var(--orange) !important;
+.nav-link:active{
+    color: var(--orange);
 }
-a, a:hover, a:visited, a:active{
+.navbar-brand:hover, .nav-link:hover, .navbar-toggler-icon:hover{
+    /* color:var(--orange) !important; */
+    transform: scale(1.1); 
+}
+a, a:hover, a:visited{
     color:unset;
     text-decoration:inherit;
+}
+a.active{
+    color: var(--orange) !important;
 }
 em{
     color:var(--orange);

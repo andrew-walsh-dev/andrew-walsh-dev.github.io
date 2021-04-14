@@ -98,6 +98,7 @@ i:hover, p:hover{
 }
 .card{
     border: 10px solid lightgray;
+    min-width: 300px;
 }
 .education-name{
     position: relative;
@@ -108,4 +109,37 @@ i:hover, p:hover{
 }
 .card:hover{
     transform: scale(1.1); 
+}
+
+@media screen and (max-width: 1270px){
+    .skill{
+        flex-basis: 100%;
+    }
+    #skills, #projects{
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .nav-link:hover{
+        transform: scale(1.01);
+    }
+}
+
+@media screen and (max-width: 725px){
+    #skills, #projects, #about, #education{
+        height: 165vh;
+    }
+    .phone, .email{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .width-500{
+        width: 300px;
+    }
 }

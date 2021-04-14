@@ -128,12 +128,15 @@ i:hover, p:hover{
 
 @media screen and (max-width: 725px){
     #about{
-        height: 100vh;
+        height: 90vh;
     }
     #education{
         height: 110vh;
     }
-    #skills, #projects{
+    #projects{
+        height: 125vh;
+    }
+    #skills{
         height: 140vh;
     }
     .phone, .email{

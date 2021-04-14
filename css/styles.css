@@ -28,6 +28,11 @@ nav, .nav-link{
     /* color:var(--orange) !important; */
     transform: scale(1.1); 
 }
+@media screen and (max-width: 992px){
+    .nav-link:hover{
+        transform: scale(1.01);
+    }
+}
 a, a:hover, a:visited{
     color:unset;
     text-decoration:inherit;
@@ -50,6 +55,8 @@ h2 em:hover{
 }
 h1{
     font-size: 60px;
+}
+@media screen and (max-width: 700px){
 }
 h4{
     color:var(--gray);
@@ -96,8 +103,28 @@ i:hover, p:hover{
     margin-top: 10px;
     padding: .1em;
 }
+@media screen and (max-width: 1270px){
+    .skill{
+        flex-basis: 100%;
+    }
+    #skills, #projects{
+        height: 150vh;
+    }
+}
+@media screen and (max-width: 700px){
+    #skills, #projects, #about, #education{
+        height: 165vh;
+    }
+    .phone, .email{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
 .card{
     border: 10px solid lightgray;
+    min-width: 300px;
 }
 .education-name{
     position: relative;

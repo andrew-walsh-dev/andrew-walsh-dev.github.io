@@ -127,8 +127,11 @@ i:hover, p:hover{
 }
 
 @media screen and (max-width: 725px){
-    #skills, #projects, #about, #education{
-        height: 165vh;
+    #about, #education{
+        height: 155vh;
+    }
+    #skills, #projects{
+        height: 170vh;
     }
     .phone, .email{
         font-size: 14px;

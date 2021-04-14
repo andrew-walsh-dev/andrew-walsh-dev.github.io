@@ -111,12 +111,18 @@ i:hover, p:hover{
     transform: scale(1.1); 
 }
 
-@media screen and (max-width: 1270px){
+@media screen and (max-width: 1450px){
     .skill{
         flex-basis: 100%;
     }
-    #skills, #projects{
-        height: 150vh;
+    #skills{
+        height: 170vh;
+    }
+    #projects{
+        height: 180vh;
+    }
+    #education{
+        height: 120vh;
     }
 }
 

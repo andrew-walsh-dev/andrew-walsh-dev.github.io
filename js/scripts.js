@@ -2,5 +2,8 @@ $(document).ready(function(){
     $("body").scrollspy({
         target: ".navbar"
     });
-    console.log("hello");
 })
+
+$(".nav-link").click(function () {
+    $(".navbar-collapse").collapse("hide");
+});

@@ -72,8 +72,13 @@ h4{
     font-size: 20px;
     text-decoration: bold;
 }
-#about,#skills,#projects,#education{
+#about, #skills, #projects, #education {
     height: 100vh;
+}
+@screen and (max-height: 500px) {
+    #about, #skills, #projects, #education {
+        height: 700px;
+    }
 }
 i:hover, p:hover{
     color: inherit;
@@ -111,12 +116,18 @@ i:hover, p:hover{
     transform: scale(1.1); 
 }
 
-@media screen and (max-width: 1270px){
+@media screen and (max-width: 1450px){
     .skill{
         flex-basis: 100%;
     }
-    #skills, #projects{
-        height: 150vh;
+    #skills{
+        height: 1200px;
+    }
+    #projects{
+        height: 1250px;
+    }
+    #education{
+        height: 900px;
     }
 }
 
@@ -127,17 +138,17 @@ i:hover, p:hover{
 }
 
 @media screen and (max-width: 725px){
-    #about{
-        height: 90vh;
-    }
+    /*#about{*/
+    /*    height: 625px;*/
+    /*}*/
     #education{
-        height: 110vh;
+        height: 800px;
     }
     #projects{
-        height: 125vh;
+        height: 900px;
     }
     #skills{
-        height: 140vh;
+        height: 1100px;
     }
     .phone, .email{
         font-size: 14px;

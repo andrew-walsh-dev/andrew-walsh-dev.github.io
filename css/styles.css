@@ -72,8 +72,13 @@ h4{
     font-size: 20px;
     text-decoration: bold;
 }
-#about,#skills,#projects,#education{
-    height: 700px;
+#about, #skills, #projects, #education {
+    height: 100vh;
+}
+@screen and (max-height: 500px) {
+    #about, #skills, #projects, #education {
+        height: 700px;
+    }
 }
 i:hover, p:hover{
     color: inherit;

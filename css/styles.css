@@ -164,7 +164,7 @@ i:hover, p:hover{
 }
 
 #about, #education, #projects, #skills{
-    min-height: 1vh;
+    min-height: 100vh;
     padding-top: 125px;
     padding-bottom: 125px;
 }

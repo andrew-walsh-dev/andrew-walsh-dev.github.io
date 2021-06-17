@@ -169,10 +169,3 @@ i:hover, p:hover{
     padding-bottom: 125px;
 }
 
-@media screen and (max-width: 1000px) and (min-width: 800px){
-    .card{
-        flex-basis: 50%;
-    }
-}
-
-

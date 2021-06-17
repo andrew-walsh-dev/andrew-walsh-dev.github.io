@@ -103,7 +103,7 @@ i:hover, p:hover{
 }
 .card{
     border: 10px solid lightgray;
-    min-width: 300px;
+    width: 300px;
 }
 .education-name{
     position: relative;
